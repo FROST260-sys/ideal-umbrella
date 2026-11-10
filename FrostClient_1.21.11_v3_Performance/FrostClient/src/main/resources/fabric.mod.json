@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "frostclient",
+  "version": "${version}",
+  "name": "Frost Client",
+  "description": "Ultra low-overhead Minecraft 1.21.11 Fabric client optimized for low-end systems featuring Rusherhack, Vape, and Meteor features.",
+  "authors": [
+    "8cord"
+  ],
+  "contact": {},
+  "license": "All Rights Reserved",
+  "icon": "assets/frostclient/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.frost.client.FrostClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15",
+    "minecraft": "~1.21.11",
+    "fabric-api": "*"
+  }
+}
